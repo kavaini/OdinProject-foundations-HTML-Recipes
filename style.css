@@ -1,14 +1,25 @@
 body{
-background-color: antiquewhite;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 100px;
 }
 h1{
-    color:blue;
+    color:green;
 }
 .container{
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
 }
 .item{
-    height: 200px;
+    display:flex;
+    flex-direction: column;
+    height: 250px;
     width: 150px;
+    padding: 40px;
 }
