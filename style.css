@@ -1,27 +1,56 @@
 body{
     background-color: #FF66C4;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 .navbar{
     display: flex;
     flex-direction: row;
 }
-.logo{
-    width: 100px;
-}
-h1{
-    color:green;
-    padding-left: 250px;
+
+h1, h3{
+    color: #8C113C;
+    
 }
 .container{
     display: flex;
     flex-direction: row;
     padding: 50px;
 }
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 15px;
+}
+.item img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(136, 219, 140);
+}
+
 .item{
     display:flex;
     flex-direction: column;
     width: 400px;
     padding: 40px;
-    border-radius: 15%;
+}
+.preparation_block{   
+    margin-top:20px;
+    border-radius: 10px;
+    border:1px solid #8C113C;
+    padding: 20px;
+}
+.ingredients_block{
+    border-radius: 10px;
+    background-color: rgb(241, 193, 226);
+    padding: 20px;
+    margin: 20px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
 }
