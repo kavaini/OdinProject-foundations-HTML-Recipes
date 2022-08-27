@@ -16,7 +16,6 @@ h1, h3{
 .container{
     display: flex;
     flex-direction: row;
-    padding: 50px;
 }
 img {
     width: 400px;
